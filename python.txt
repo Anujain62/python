@@ -1,0 +1,174 @@
+python is a case sensitive language.
+
+
+Character set ->
+1) letters - A to Z, a to z 
+2) Digits - 0 to 9
+3) special symbols - +,-,*,/ etc
+4) whitespaces - blank space, tab, carriage return, new line,formfeed
+5) other Characters - python can process all ASCII and Unicode characters as part of data or literals.
+
+
+variables -> a variable is a name given to a memory location in a program.
+eg. -> name = "anu , age = 23
+rules for identifiers ->
+1) identifiers can be combination of uppercase and lowercase letters, dgits or an underscore. 
+2) an identifier can not start with digit. so 1variable is not valid
+3) we can't use special symbols like !,@,#,$,% etc in our identifier.
+4) identifier can be of any length.
+
+
+data types -> integers, string('anu',"anu", '''anu'''), float, boolean, none
+
+
+comments -> 
+1) # single line comment
+2) """
+multiline 
+comment
+"""
+
+
+types of operators -> an operator is a symbol that performs a centain operation b/w operands
+1) arithmetic operators
+2) relational/comparison operators
+3) assignment operators
+4) logical operators
+
+
+
+type conversion ->
+1) implicit -> automatically
+2) casting -> manually
+
+
+
+input -> input() statement is used to accept value (using keyword) from user 
+input() -> #result for input() is always a string
+int(input()) -> for int
+float(input()) -> for float 
+
+
+
+strings -> string is data type that stores a sequence of characters.
+basic operations -> 
+1) concatenation -> eg. - "hello" + "world" = "helloworld"
+2) length of string -> len(str)
+
+
+
+conditional statement->
+syntax -> if-elif-else
+
+
+
+indentation -> means proper spacing, in any other language we use block for writing may lines of code but here be use indentation.
+
+
+
+list -> A built-in data type that stores set of values.
+it can store elements of different type(integer,float,string etc).
+lists are mutable,strings are immutable.
+
+
+
+tuples -> A built-in data type that lets us create immutable sequences of values.
+
+
+
+dictionary -> # dictionaries are used to store data values in "key":value pairs.
+# they  are unordered, mutable(changesable) & don't allow duplicate keys
+# eg. -> creation of dictionary 
+# dict = {
+#  "name" : "anu",
+#  "CGPA" : 7.8,
+#  "marks" : [85,90,87]
+# }
+
+
+
+
+sets -> set is the collection of the unordered items.
+each element in the set must be unique & immutable.
+enpty set syntax -> num = set()
+eg. ->
+nums = {1,2,2,2,3}
+repeated elements stored only once, so it resolved to {1,2,3}
+
+
+
+
+while loop -> loops are used to repeat instructions.
+iteration -> one time whole loop code runs
+iterator -> variable name whose used for condition
+syntax
+while condition:
+ some work
+
+break -> used to terminate the loop when encountered
+continue -> terminates exicution in the current iteration and continues execution of the loop with next iteration
+
+
+
+
+for loop -> loops are used for sequential traversal
+syntax ->
+for ele in list:
+ some work
+
+for loop with else
+here else is work while whole loop is exicute,if we break the loop at specific condition so this else does not work
+for ele in list:
+ some work
+else:
+ work when loop ends 
+
+
+
+
+
+
+function -> block of statements that perform a specif task.
+1) function definition
+def fun_name(param1,param2,...):
+ some work
+ return value
+2) function call 
+fun_name(arg1,arg2,...)
+
+types of functions
+1) built-in functions -> print() function ends with new line(\n),if we wants to print some lines in same line so we can assign (end = " "), eg.-> print("anu",end=" ")   print("jain"), output-> anu jain
+2) user define function
+
+default parameters -> assigning a default value to parameter, which is used when no argument is passed
+
+
+
+
+
+File I/O -> python can be used to perform operations on a file.(read and write data)
+type of files ->
+1) text files -> .txt, .docx, .log etc.
+2) binary files -> .mp4, .mov, .png, .jpeg etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
