@@ -165,6 +165,14 @@ character           meaning
    't'         text mode(default) 
    '+'         open a disk file for uploading(reading and writing)
 
+with syntax ->
+with open("file name","mode") as f:
+ variable_name = f.read()
+
+deleting a file -> using the os module.
+module(like a code library) is a file writing by another programmer that generally has a function we can use. 
+import os 
+os.remove(filename) 
 
 
 
