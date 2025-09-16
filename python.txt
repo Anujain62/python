@@ -179,7 +179,43 @@ os.remove(filename)
 
 
 
+OOP -> To map  with real world scenarios,we started using object in code. 
+this is called object oriented programming.
 
+class -> class is a blueprint for creating objects.
+creating class -> 
+ class Student:
+  name = "anu jain"
+
+creating object(instance) 
+s1 = Student()
+print(s1.name)
+
+constructor (_ _init_ _ function) -> all classes have a function called __init__(), which is always executed when the object is being initiated.
+'the self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.'
+# creating class
+class Student:
+ def __init__(self,fullname):
+  self.name = fullname
+# creating object
+s1 = Student("karan")
+print(s1.name) 
+
+
+static method -> methods that don't use the self parameter(work at class level).
+class Student:
+ @staticmethod    #decorator
+ def collage():
+  print("ABC Collage")
+
+'Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function,without permanently modifying it.'  
+
+
+
+
+Abstraction -> hiding the implementation details of a class and only showing the essential features to the user. 
+
+encapsulation -> wrapping data and functions into  a single unit (object).
 
 
 
