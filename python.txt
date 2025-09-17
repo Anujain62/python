@@ -219,6 +219,57 @@ encapsulation -> wrapping data and functions into  a single unit (object).
 
 
 
+private(like) attributes and methods -> conceptual implementation in python -> private attributes and methods are meant to be used only within the class and not accessible from outside the class 
+
+
+
+
+class method -> A class method is bound to the class and receives the class  as an implicit first argument. 
+Note -> static method can't access or modify class state and generally for utility. 
+eg. ->
+class Student:
+ @classmethod          #decorator
+ def collage(cls):
+  pass
+
+
+
+
+
+
+
+types of methods -> 
+1) static method -> here we can't change class or instance method attributes.
+2) class method -> here we pass "cls" as an argument.
+3) instance method -> here we pass "self" as an argument. 
+
+
+
+
+
+
+polymorphism : operator overloading -> when the same operator is allowing to have diffrent meaning according to the context.
+operator & dunder functions -> 
+1) addition            a+b              a.__add__(b)
+2) subtraction         a+b              a.__sub__(b)
+3) multiplication      a+b              a.__mul__(b)
+4) division            a+b              a.__truediv__(b)
+5) mod                 a+b              a.__mod__(b)
+
+
+
+
+
+
+
+use of addition operator for different data types -> 
+print(1+2) #add numbers
+print("anu "+"jain")   #concatenate
+print([1,2,3],[4,5,6])  #merge
+
+
+
+
 
 
 
