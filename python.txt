@@ -1,4 +1,5 @@
 python is a case sensitive language.
+REPl -> read evaluate print loop
 
 
 Character set ->
@@ -255,7 +256,7 @@ operator & dunder functions ->
 3) multiplication      a+b              a.__mul__(b)
 4) division            a+b              a.__truediv__(b)
 5) mod                 a+b              a.__mod__(b)
-
+6) comparision         a>b              a.__gt__(b) 
 
 
 
@@ -266,7 +267,6 @@ use of addition operator for different data types ->
 print(1+2) #add numbers
 print("anu "+"jain")   #concatenate
 print([1,2,3],[4,5,6])  #merge
-
 
 
 

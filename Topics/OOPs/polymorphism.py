@@ -6,6 +6,7 @@
 # 3) multiplication      a+b              a.__mul__(b)
 # 4) division            a+b              a.__truediv__(b)
 # 5) mod                 a+b              a.__mod__(b)
+# 6) comparision         a>b              a.__gt__(b) 
 
 
 
@@ -14,8 +15,6 @@
 # print(1+2) #add numbers
 # print("anu "+"jain")   #concatenate
 # print([1,2,3],[4,5,6])  #merge
-
-
 
 
 
@@ -34,7 +33,7 @@ class Complex:
  #  newImg = self.img + num2.img
  #  return Complex(newReal,newImg)
 
- # tinder function
+ # dunder function
  def __add__(self,num2):
   newReal = self.real + num2.real
   newImg = self.img + num2.img
