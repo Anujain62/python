@@ -52,9 +52,20 @@ float(input()) -> for float
 
 
 strings -> string is data type that stores a sequence of characters.
+the indexing starts from 0 to length-1 when we start from the starting point/index.
+the negative indexing start from -1 to length-1 in decreasing order , when we start from the end point/index.
 basic operations -> 
 1) concatenation -> eg. - "hello" + "world" = "helloworld"
 2) length of string -> len(str)
+
+
+
+escape sequence characters -> sequence of characters after backslash "\".
+escape sequence characters comprise of more than one character but represent one character when used within the strings.
+\n -> newline
+\t -> tab 
+\' -> single quote
+\\ -> backslash 
 
 
 

@@ -43,16 +43,19 @@ str = """anu"""
 #4) slicing -> accessing parts of a string
 # syntax = string_name[starting_idx : ending_idx],including starting index and excluding end index 
 # here indexing starts from forward direction and numbering is start from 0
-# str = "apna collage"
+str = "apna collage"
 # print(str[5:len(str)])
 # print(str[:5])  #it means starting idx is 0
 # print(str[5:])   #it means last idx is length of string
+# print(str[1:10:2])  #here third number passed as jumping the index by (pass_number - 1)
 
 # here indexing starts from backward direction and numbering is start from -1
 # str = "apple"
 # print(str[-5:-2])
 
 
+
+# 5) functions
 
 # string_name.endswith("sub_string") -> returns true if string ends with sub-string.
 # str = "i am studying python from apnacollage"
@@ -71,8 +74,8 @@ str = """anu"""
 # print(str.find("from"))
 
 # string_name.count("sub_string") -> counts the occurences of sub-string in string
-str = "i am studying python from apnacollage"
-print(str.count("a"))
+# str = "i am studying python from apnacollage"
+# print(str.count("a"))
 
 
 
