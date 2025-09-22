@@ -10,6 +10,11 @@
 
 
 
+# empty dictionary -> 
+# s = {}
+
+
+
 # single dictionary ->
 # info = {
 #  "key" : "value",
@@ -75,7 +80,9 @@ print(info)
 # print(info.items())
 
 # returns the value according to key,it returns none if key is not present in the dictionary and continue the exicution of below code,where if we use [key] based access and here key is not present in the dictionary,so it gives error and then does not exicute the below code, so we use get() funtion in maximum times  
-# print(info.get("name"))
+# print(info.get("name2"))
+# returns an error
+# print(info["name2"])
 
 # inserts the specified items to the dictionary
 # 1)
