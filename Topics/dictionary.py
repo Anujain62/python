@@ -61,14 +61,14 @@
 
 
 # methods
-info = {
- "key" : "value",
- "name" : "anu",
- "subjects" : ["python","c","java"],
- "topics" : ("dic", "sets"),
- "age" : 20,
-}
-print(info)
+# info = {
+#  "key" : "value",
+#  "name" : "anu",
+#  "subjects" : ["python","c","java"],
+#  "topics" : ("dic", "sets"),
+#  "age" : 20,
+# }
+# print(info)
 
 # returns all keys
 # print(info.keys())
@@ -90,9 +90,24 @@ print(info)
 # print(info)
 
 # 2) if we add same key name so this is overrite the value of previous key, this does not create the duplicate key
-new_dict = {"city":"jabalpur", "branch":"CSE"}
-info.update(new_dict)
-print(info)
+# new_dict = {"city":"jabalpur", "branch":"CSE"}
+# info.update(new_dict)
+# print(info)
+
+
+
+
+
+
+
+
+# how to marge keys and values
+keys = ['navin','kiran','harsh']
+values = ['python','java','js']
+data = dict(zip(keys,values))      #this is marge keys and values in one dictionary.
+print(data)
+
+
 
 
 

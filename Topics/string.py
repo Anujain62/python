@@ -1,10 +1,10 @@
 # type of string writing
-# type - 1
-str = 'anu'
-# type - 2
-str = "anu"
-# type - 3
-str = """anu"""
+# # type - 1
+# str = 'anu'
+# # type - 2
+# str = "anu"
+# # type - 3
+# str = """anu"""
 
 
 # str1 = "this is a string.\n we are creating it in python."
@@ -79,3 +79,9 @@ str = "apna collage"
 
 
 
+
+
+
+# row string -> it means it prints string as it is who is we assigns.
+print(r'c:\docs\navin')
+print('c:\docs\navin')       #if we 'r' does not use so it assums \n as new line.
