@@ -97,22 +97,41 @@ n = int(input("Enter number of line :"))
 
 
 
-# 7)   ****
-#      *  *
-#      *  *
-#      ****
+# # 7)   ****
+# #      *  *
+# #      *  *
+# #      ****
+# for i in range(0,n,1):
+#  if(i==0 or i==n-1):
+#   for j in range(0,n,1):
+#    print("*",end="")
+#  else:
+#   print("*",end="")
+#   for j in range(0,n-2,1):
+#    print(" ",end="")
+#   print("*",end="") 
+#  print()    
+
+
+
+
+
+
+# 8)  *
+#    * *
+#   *   *
+#  * * * *
 for i in range(0,n,1):
- if(i==0 or i==n-1):
+ for j in range(0,n-i-1,1):
+  print(" ",end="")
+ if(i==0):
+  print("*",end="") 
+ elif(i==n-1):
   for j in range(0,n,1):
-   print("*",end="")
- else:
+   print("*",end=" ") 
+ else:  
   print("*",end="")
-  for j in range(0,n-2,1):
+  for j in range(0,2*i-1,1):
    print(" ",end="")
   print("*",end="") 
- print()    
-
-
-
-
-
+ print() 
