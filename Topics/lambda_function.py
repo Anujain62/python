@@ -6,8 +6,6 @@
 
 
 
-
-
-# lambda function for square
+# lambda/anonymous function for square
 square = lambda x : x*x
 print(square(5)) 
