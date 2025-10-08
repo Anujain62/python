@@ -1,6 +1,8 @@
 # when one class(child/derived) derives the properties and methods of another class(parent/base)
 
-# types -> 1) single inheritance  2) multi-level inheritance  3) multilevel inheritance
+# types -> 1) single inheritance  2) multi-level inheritance (this creates method resolution order(MRO), it starts travers from left to right(means if class c inherite class a and class b and class c called super().__init__() method if both class are contains __init__() method so class c prefer to __init__() method of class a because class a is present left side.))  3) multilevel inheritance
+
+# when you create object of sub-class it will  call init of sub class first, if you have call super then it will first call init of super class then call init of sub class.
 
 
 # # eg. -> single inheritance

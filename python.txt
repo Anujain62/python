@@ -283,12 +283,14 @@ print([1,2,3],[4,5,6])  #merge
 
 
 
+special variable = __name__
+special method = __init__
 
 
 
 
-
-
+size of an object -> depends on the no. of variable and size of each variable.
+who allocate size of object -> constructor
 
 
 
