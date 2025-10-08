@@ -8,6 +8,10 @@
 from max_num_in_list import maxValue
 from functools import reduce
 
+
+# if we exicutes this file directly so this file prints __main__ and max_num_in_list file prints file name max_num_in_list.
+print("inside main file : ",__name__)
+
 size = int(input("enter size of the list : "))
 l = []
 print("Enter elements of list : ")
