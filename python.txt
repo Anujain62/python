@@ -1,6 +1,11 @@
 python is a case sensitive language.
 REPl -> read evaluate print loop
 
+why are python is both typed language -> 
+python is compiled and interpreted language.
+compiler -> convert into source code to byte code.
+interpreted -> conver into byte code to machine language.(it runs line by line)
+
 
 Character set ->
 1) letters - A to Z, a to z 
