@@ -7,6 +7,11 @@ compiler -> convert into source code to byte code.
 interpreted -> conver into byte code to machine language.(it runs line by line)
 
 
+IDLE -> integrated development learning env, it is an IDE provided by python.
+when you install python, IDLE application get installed.
+two ways to run programs -> 1) using interactive shell 2) using a script file.
+
+
 Character set ->
 1) letters - A to Z, a to z 
 2) Digits - 0 to 9
@@ -309,9 +314,11 @@ a = 1+2+3+/
 
 
 special operator -> 
-identity operator ->  
+i)identity operator ->  
 1) is operator -> this compare address
 eg. -> a = 5 , b =5 , print(a is b),         output-> true
 
 2) in operator -> this finds data inside the set of data(like list, dictionary etc)
 eg. -> list = [1,2,3,4], print(1 in list)       output -> true
+
+ii)membership operator ->
