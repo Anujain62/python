@@ -28,7 +28,7 @@ collection.add(3)
 collection.add("anu")
 collection.add((1,2,3))
 collection.add(1)
-print(collection)
+# print(collection)
 
 # remove an element
 # collection.remove(1)
@@ -47,7 +47,22 @@ print(collection)
 # print(collection.union(set2))
 
 # combines common values and returns new
-set2 = (1,2,3)
-print(collection.intersection(set2))
+# set2 = (1,2,3)
+# print(collection.intersection(set2))
+
+
+
+# combine both list and sets
+# collection.update([11,12,13],{14,15,16})
+# print(collection)
+
+
+
+# frozenset -> this is immutable type of set
+set1 = frozenset([1,2,3,4])
+set2 = frozenset([3,4,5,6])
+# print(set1,set2)
+
+# set1.add(10)        #this gives an error
 
 
