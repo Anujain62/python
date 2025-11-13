@@ -2,8 +2,8 @@
 import math
 a,b = map(int,input().split())
 
-x = float(a/b) 
+# x = a/b
 
-print("floor",a,"/",b,"=",math.floor(x))
-print("ceil",a,"/",b,"=",math.ceil(x))
-print("round",a,"/",b,"=",round(x))
+print(f"floor {a} / {b} = {math.floor(a/b)}")
+print(f"ceil {a} / {b} = {math.ceil(a/b)}")
+print(f"round {a} / {b} = {math.floor((a/b)+0.5)}")
