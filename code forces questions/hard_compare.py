@@ -1,7 +1,10 @@
 
+
 import math
-a,b,c,d = map(int,input().split())
-if pow(a,b) > pow(c,d):
- print("Yes")
+
+a, b, c, d = map(int, input().split())
+
+if b * math.log(a) > d * math.log(c):
+ print("YES")
 else:
- print("No") 
+ print("NO") 
