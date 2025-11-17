@@ -34,5 +34,3 @@ for x in lst:
   print(ans) 
  else:
   print(-1)  
-
-
