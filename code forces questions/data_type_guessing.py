@@ -24,16 +24,15 @@
 
 n,k,a = map(int,input().split())
 
-ans = (n*k)//a
-INT_MAX = 2**31 - 1
-LLONG_MAX = 2**63 - 1
 
-if(ans<=INT_MAX):
+if((n*k)%a!=0):
+ print("double")
+elif (n*k)//a <= 2147483647:
  print("int")
-elif(ans<=LLONG_MAX):
- print("long long") 
 else:
- print("double") 
+ print("long long") 
+ 
+
 
 
 

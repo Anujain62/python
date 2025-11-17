@@ -17,15 +17,36 @@
 
 
 
-n = int(input())
+# n = int(input())
+# if 10<=10<=99:
+#  x = n%10
+#  n//=10
+#  y = n%10
+#  if(x%y==0 or y%x==0):
+#   print("YES")
+#  else:
+#   print("NO") 
+# else:  
+#  print("NO")
 
-if 10<=10<=99:
- x = n%10
- n//=10
- y = n%10
- if(x%y==0 or y%x==0):
-  print("YES")
- else:
-  print("NO") 
-else:  
- print("NO")
+
+
+
+a,b = map(int,input().split())
+found =False
+for i in range(a,b+1):
+ is_lucky = True
+ num=i
+ while num>0:
+   digit = num%10
+   if digit!=4 and digit!=7:
+     is_lucky = False
+     break
+   num//=10
+ if is_lucky:
+   print(i,end=" ")
+   found=True
+
+if not found:
+ print(-1)
+   
