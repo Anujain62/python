@@ -21,16 +21,16 @@ for i in range(n):
  tempLst = list(map(int,input().split()))
  lst.append(tempLst)
 
-ans = []
-t = 0
 for x in lst:
  sum = x[1]
  limit = x[0]
+ ans = []
+ t = 0
  for i in range(limit,0,-1):
   if t+i<=sum:
    ans.append(i)
    t+=i
  if t==sum:
-  print(ans) 
+   print(*ans) 
  else:
-  print(-1)  
+   print(-1)  
