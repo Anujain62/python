@@ -20,11 +20,10 @@ tempLst = []
 for i in a:
  if i in tempLst:
   continue
- else:
+ if(i<=m):
   tempLst.append(i)
- tempLst.append(i)
- ans = a.count(i)
- freq.append(ans)
+  ans = a.count(i)
+  freq.append(ans)
 
 for i in freq:
  print(i) 
