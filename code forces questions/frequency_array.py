@@ -20,9 +20,11 @@ tempLst = []
 for i in a:
  if i in tempLst:
   continue
+ else:
+  tempLst.append(i)
  tempLst.append(i)
  ans = a.count(i)
- freq.append(ans) 
+ freq.append(ans)
 
 for i in freq:
  print(i) 
