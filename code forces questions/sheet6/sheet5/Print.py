@@ -1,0 +1,13 @@
+
+
+def show(n):
+ for i in range(1,n+1):
+  if i!=n:
+   print(i,end=" ")
+  else:
+   print(i) 
+
+
+
+n=int(input())
+show(n)
