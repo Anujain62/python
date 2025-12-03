@@ -320,3 +320,22 @@ eg. -> a = 5 , b =5 , print(a is b),         output-> true
 
 2) in operator -> this finds data inside the set of data(like list, dictionary etc)
 eg. -> list = [1,2,3,4], print(1 in list)       output -> true
+
+
+
+
+
+
+steps of standard deviation -> 
+1) find mean 
+2) element of array - mean 
+3) square of all elements after differentiation 
+4) sum of all elements 
+5) population variance(square of sum)
+6) variance/length of array
+
+
+
+
+
+
